@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@100;300;400;500;700&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Poppins;
 }
 
 ::-webkit-scrollbar{
@@ -15,6 +17,19 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+h1 {
+    color: #426696;
+    font-weight: 600;
+    font-size: 3rem;
+    opacity: 0.8;
+}
+
+h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
 }
 
 .glass {
@@ -47,6 +62,18 @@ main {
   );
   border-radius: 2rem;
 }
+
+.link {
+    display: flex;
+    margin: 2rem 0rem;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+.link h2 {
+    padding: 0rem 1rem;
+}
+
 .topWork {
     flex: 2;
 }
@@ -55,8 +82,8 @@ main {
 .circle2 {
   background: linear-gradient(
     to right bottom,
-    rgba(255, 255, 255, 1),
-    rgba(255, 255, 255, 0.472)
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.3)
   );
   height: 20rem;
   width: 20rem;
@@ -66,14 +93,37 @@ main {
 
 .circle1 {
     background-color: royalblue;
-    top: 5%;
-    right: 15%;
+    top: 1%;
+    right: 13%;
 }
 .circle2 {
     background-color: #566160;
-    bottom: 5%;
-    left: 10%;
+    bottom: 2%;
+    left: 12%;
 }
+
+.teleporter {
+    background: linear-gradient(to left bottom, #e7ddf4, #8baeff);
+    border-radius: 1.5rem;
+    color: white;
+    padding: 5px;
+    right: -5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+
+.teleporter h2 {
+    width: 40%;
+}
+
+.teleporter img {
+    height: 5rem;
+    top: -19%;
+    left: -30%;
+}
+
 .cardBtn {
     background-color: #5672df;
     border: none;
