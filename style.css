@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #566160, #5672df);
+  /* center glass */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background-color: white;
+  min-height: 80vh;
+  width: 60%;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  /* RGBA Lets us control opactity of color */
+  border-radius: 2rem;
+  z-index: 2;
+  backdrop-filter: blur(1.5rem);
+}
+
+.circle1,
+.circle2 {
+  background-color: white;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0.5)
+  );
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle1 {
+    top: 5%;
+    right: 15%;
+}
+.circle2 {
+    bottom: 5%;
+    left: 10%;
+}
+.user > img {
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+}
+.link > img {
+    height: 2rem;
+
+}
