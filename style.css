@@ -61,5 +61,8 @@ main {
 }
 .link > img {
     height: 2rem;
+}
 
+.card > img {
+    height: 8rem;
 }
